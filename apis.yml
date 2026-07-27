@@ -1,7 +1,16 @@
 aid: helio-ai-llc
 name: Helio AI LLC
-description: Helio AI LLC is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Helio AI LLC operates Helio.AI, an AI-powered recruiting and applicant
+  tracking (ATS) platform for HR and talent-acquisition teams. It automates the
+  end-to-end hiring workflow — job posting and distribution, resume screening,
+  candidate tracking, real-time analytics, and team collaboration — and pairs
+  the ATS with a gamified personality test to evaluate candidates. The product
+  is offered in multiple languages (English, Russian, Georgian, Armenian,
+  Azerbaijani, and Uzbek) and targets markets across Georgia, Armenia,
+  Azerbaijan, and Uzbekistan. Helio AI is backed by 500 Global. The company
+  runs its customer application at app.helio-ai.com and does not currently
+  publish a public developer API program or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/helio-ai-llc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/669e87d0874490dec14a7584/66a247775f682b49f89d4d6f_unnamed.png
 tags:
 - Company
+- Recruiting
+- Applicant Tracking System
+- ATS
+- Human Resources
+- HR Tech
+- Artificial Intelligence
+- Talent Acquisition
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://helio-ai.com
+- type: Blog
+  url: https://helio-ai.com/blog
+- type: TermsOfService
+  url: https://helio-ai.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://helio-ai.com/privacy-policy
+- type: SignUp
+  url: https://app.helio-ai.com/signup
+- type: Login
+  url: https://app.helio-ai.com/login
+- type: LinkedIn
+  url: https://www.linkedin.com/company/90997917
+- type: DomainSecurity
+  url: security/helio-ai-llc-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
