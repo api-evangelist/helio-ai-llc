@@ -1,5 +1,5 @@
 aid: helio-ai-llc
-name: Helio AI LLC
+name: Helio AI
 description: >-
   Helio AI LLC operates Helio.AI, an AI-powered recruiting and applicant
   tracking (ATS) platform for HR and talent-acquisition teams. It automates the
@@ -47,7 +47,7 @@ image: https://cdn.prod.website-files.com/669e87d0874490dec14a7584/66a247775f682
 tags:
 - Company
 - Recruiting
-- ATS
+- Applicant Tracking
 - Human Resources
 - Artificial Intelligence
 - Talent Acquisition
@@ -90,3 +90,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Helio AI LLC
